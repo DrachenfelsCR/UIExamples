@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".EditPersonActivity">
+
+    <TextView
+            android:text="Edit Name
+"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView2"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.221"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.306"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Edit Name"
+            android:ems="10"
+            android:id="@+id/editarNombre"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.378"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.377"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            android:id="@+id/editarPassword" tools:layout_editor_absoluteY="379dp"
+            tools:layout_editor_absoluteX="76dp"/>
+    <TextView
+            android:text="Edit Password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView3"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.236" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintVertical_bias="0.477"/>
+    <Button
+            android:text="Submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonSumbitEdit"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.271"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.68"
+            app:backgroundTint="#2D9600"/>
+    <Button
+            android:text="CANCEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/buttonCancelEdit"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.581"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.68"
+            app:backgroundTint="#BF2323"/>
+    <TextView
+            android:text="Edit username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView4"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.236"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.154"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text="Edit username"
+            android:ems="10"
+            android:id="@+id/editUsername" tools:layout_editor_absoluteY="149dp"
+            tools:layout_editor_absoluteX="76dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
